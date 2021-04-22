@@ -18,9 +18,9 @@ public class InitialController {
         this.userService = userService;
     }
 
-    @GetMapping("/test")
+    @GetMapping("/")
     public String helloGradle() {
-        return "Hello Gradle!";
+        return "Hello World";
     }
 
     //@PutMapping(value ="", consumes = {"application/json"})
